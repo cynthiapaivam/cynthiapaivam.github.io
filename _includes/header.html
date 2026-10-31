@@ -1,19 +1,26 @@
-<a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+{% assign copy = site.data.homepage[page.lang] %}
+<a class="skip-link" href="#main-content">{{ copy.skip }}</a>
 <header id="header">
   <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-  <nav id="nav" aria-label="Navegação principal">
-    <button type="button" aria-controls="menu" aria-expanded="false" data-menu-toggle>
-      <span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
-      <span>Menu</span>
-    </button>
-    <div id="menu" aria-hidden="true" data-menu>
-      <button class="menu-close" type="button" data-menu-close>Fechar menu</button>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Início</a></li>
-        <li><a href="{{ '/#sobre' | relative_url }}">Sobre</a></li>
-        <li><a href="{{ '/#projetos' | relative_url }}">Projetos</a></li>
-        <li><a href="{{ '/#contato' | relative_url }}">Contato</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div class="header-tools">
+    <nav class="language-switch" aria-label="Language">
+      <a href="{{ '/' | relative_url }}" lang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>EN</a>
+      <a href="{{ '/pt/' | relative_url }}" lang="pt"{% if page.lang == 'pt' %} aria-current="page"{% endif %}>PT</a>
+      <a href="{{ '/de/' | relative_url }}" lang="de"{% if page.lang == 'de' %} aria-current="page"{% endif %}>DE</a>
+    </nav>
+    <nav id="nav" aria-label="{{ copy.nav_label }}">
+      <button type="button" aria-controls="menu" aria-expanded="false" data-menu-toggle>
+        <span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span><span>{{ copy.menu }}</span>
+      </button>
+      <div id="menu" aria-hidden="true" data-menu>
+        <button class="menu-close" type="button" data-menu-close>{{ copy.close_menu }}</button>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">{{ copy.home }}</a></li>
+          <li><a href="{{ '/' | relative_url }}#about">{{ copy.about }}</a></li>
+          <li><a href="{{ '/' | relative_url }}#projects">{{ copy.projects }}</a></li>
+          <li><a href="{{ '/' | relative_url }}#contact">{{ copy.contact }}</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </header>

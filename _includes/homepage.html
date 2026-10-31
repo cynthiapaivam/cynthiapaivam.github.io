@@ -1,0 +1,52 @@
+{% assign copy = site.data.homepage[include.lang] %}
+<section id="banner" aria-labelledby="hero-title">
+  <div class="inner">
+    <p class="eyebrow">{{ copy.hero_eyebrow }}</p>
+    <h2 id="hero-title">{{ copy.hero_title }}</h2>
+    <p class="lede">{{ copy.hero_lede }}</p>
+    <div class="banner-actions">
+      <a class="button" href="#projects">{{ copy.view_work }}</a>
+      <a class="button ghost" href="#contact">{{ copy.get_in_touch }}</a>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#about">{{ copy.scroll }}</a>
+</section>
+<section id="about" class="section intro" aria-labelledby="about-title">
+  <div class="inner">
+    <div class="section-heading">
+      <p class="eyebrow">{{ copy.about_eyebrow }}</p>
+      <h2 id="about-title">{{ copy.about_title }}</h2>
+      <p class="lede">{{ copy.about_text }}</p>
+    </div>
+    <ul class="values">{% for value in copy.values %}
+      <li class="value"><strong>{{ value[0] }}</strong><span>{{ value[1] }}</span></li>
+    {% endfor %}</ul>
+  </div>
+</section>
+<section id="projects" class="spotlights" aria-label="{{ copy.areas }}">
+  {% for area in copy.areas_list %}
+  <article class="spotlight">
+    <div class="content"><p class="eyebrow">{{ area[0] }}</p><h2>{{ area[1] }}</h2><p>{{ area[2] }}</p></div>
+  </article>
+  {% endfor %}
+</section>
+<section class="section intro" aria-labelledby="approach-title">
+  <div class="inner">
+    <div class="section-heading"><p class="eyebrow">{{ copy.approach }}</p><h2 id="approach-title">{{ copy.approach_title }}</h2></div>
+    <div class="feature-grid">{% for step in copy.steps %}
+      <article class="feature"><span class="feature-number">0{{ forloop.index }}</span><h3>{{ step[0] }}</h3><p>{{ step[1] }}</p></article>
+    {% endfor %}</div>
+  </div>
+</section>
+<section id="contact" class="section contact" aria-labelledby="contact-title">
+  <div class="inner contact-grid">
+    <div><p class="eyebrow">{{ copy.contact_eyebrow }}</p><h2 id="contact-title">{{ copy.contact_title }}</h2><p class="lede">{{ copy.contact_text }}</p></div>
+    <form method="post" action="https://formspree.io/cynthiapaivam@gmail.com">
+      <label class="honeypot">{{ copy.honeypot }}<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+      <label for="name">{{ copy.name }}<input type="text" name="name" id="name" autocomplete="name" required></label>
+      <label for="email">{{ copy.email }}<input type="email" name="email" id="email" autocomplete="email" required></label>
+      <label for="message">{{ copy.message }}<textarea name="message" id="message" required></textarea></label>
+      <button class="button" type="submit">{{ copy.send }}</button>
+    </form>
+  </div>
+</section>

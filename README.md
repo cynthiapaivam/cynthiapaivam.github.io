@@ -2,6 +2,8 @@
 
 Personal portfolio site for GitHub Pages, built with Jekyll and semantic HTML, modern CSS, and a small vanilla JavaScript menu.
 
+The default site language is English (`/`). Portuguese is available at `/pt/` and German at `/de/`. Shared page structure lives in `_includes/homepage.html`; translated homepage copy lives in `_data/homepage.yml`.
+
 ## Local preview
 
 Install Jekyll using the current Ruby toolchain, then run:

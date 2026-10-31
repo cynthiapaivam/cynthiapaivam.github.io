@@ -34,6 +34,11 @@ p { margin: 0 0 1.25rem; }
 #header { position: absolute; z-index: 10; inset: 0 0 auto; display: flex; align-items: center; justify-content: space-between; width: min(100% - 3rem, 72rem); margin-inline: auto; padding: 1.5rem 0; color: #fff; }
 #header h1 { margin: 0; font-size: 1rem; letter-spacing: .08em; text-transform: uppercase; }
 #header h1 a { text-decoration: none; }
+.header-tools { display: flex; align-items: center; gap: 1rem; }
+.language-switch { display: flex; align-items: center; gap: .25rem; }
+.language-switch a { border-radius: 99rem; padding: .35rem .5rem; color: rgba(255,255,255,.75); font-size: .75rem; font-weight: 800; text-decoration: none; }
+.language-switch a[aria-current="page"] { background: rgba(255,255,255,.18); color: #fff; }
+.language-switch a:hover { color: #fff; }
 #nav button { display: inline-flex; align-items: center; gap: .6rem; border: 1px solid rgba(255,255,255,.45); border-radius: 99rem; padding: .55rem 1rem; background: transparent; color: inherit; cursor: pointer; font: inherit; font-size: .85rem; }
 #nav button:hover, #nav button:focus-visible { background: rgba(255,255,255,.14); }
 .menu-icon { display: inline-grid; gap: 3px; width: 1rem; }
@@ -64,6 +69,7 @@ p { margin: 0 0 1.25rem; }
 .value span { color: var(--muted); }
 .spotlights { display: grid; gap: 1px; background: var(--line); }
 .spotlight { display: grid; grid-template-columns: 1fr 1fr; background: var(--paper); }
+.spotlight { grid-template-columns: 1fr; }
 .spotlight:nth-child(even) .image { order: 2; }
 .spotlight .image { min-height: 24rem; }
 .spotlight img { width: 100%; height: 100%; object-fit: cover; }
@@ -105,6 +111,9 @@ pre { overflow: auto; padding: 1rem; background: #1b2422; color: #fff; }
   .spotlight:nth-child(even) .image { order: 0; }
   .spotlight .image { min-height: 16rem; }
   .contact-grid { gap: 2rem; }
+  #header { align-items: flex-start; }
+  .header-tools { gap: .4rem; }
+  #nav button { padding: .5rem .7rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

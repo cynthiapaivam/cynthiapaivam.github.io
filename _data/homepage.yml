@@ -1,0 +1,135 @@
+en:
+  code: en
+  skip: Skip to content
+  nav_label: Main navigation
+  menu: Menu
+  close_menu: Close menu
+  home: Home
+  about: About
+  projects: Projects
+  contact: Contact
+  description: Architecture, interiors and ideas shaped with care.
+  hero_eyebrow: Architecture · Interiors · Process
+  hero_title: Spaces that make sense.
+  hero_lede: A thoughtful approach to turning needs into welcoming, functional and lasting places.
+  view_work: Explore the work
+  get_in_touch: Get in touch
+  scroll: Scroll to explore ↓
+  about_eyebrow: About
+  about_title: Good design begins with listening.
+  about_text: Cynthia is an architect focused on architecture and interior design. Each project is an opportunity to collaborate and find a clear, considered solution.
+  values:
+    - [Quality, Care in every choice and detail.]
+    - [Thoughtfulness, Curiosity and continuous learning.]
+    - [Collaboration, Better ideas grow through shared work.]
+  areas: Areas of practice
+  areas_list:
+    - [01 · Architecture, Form with purpose., Explore space, light and material to create places that support everyday life., Architectural detail in soft tones]
+    - [02 · Interiors, Atmospheres for living., Compose balanced, functional spaces with character, from the first sketch to the final detail., Interior composition with natural textures]
+    - [03 · Process, Thought through together., Research, drawing and dialogue turn an idea into a clear, considered proposal., Visual study of a design proposal]
+  approach: Approach
+  approach_title: From context to detail.
+  steps:
+    - [Understand, Listen to people, observe the context and define what matters.]
+    - [Explore, Test ideas, materials and possibilities with curiosity.]
+    - [Shape, Communicate a clear, sensitive solution ready to develop.]
+  contact_eyebrow: Contact
+  contact_title: Let’s talk.
+  contact_text: Have an idea, project or opportunity? Send a message.
+  honeypot: Leave this field empty
+  name: Name
+  email: Email
+  message: Message
+  send: Send message
+  social: Social links
+  mail_link: Email
+pt:
+  code: pt
+  skip: Pular para o conteúdo
+  nav_label: Navegação principal
+  menu: Menu
+  close_menu: Fechar menu
+  home: Início
+  about: Sobre
+  projects: Projetos
+  contact: Contato
+  description: Arquitetura, interiores e ideias construídas com cuidado.
+  hero_eyebrow: Arquitetura · Interiores · Processo
+  hero_title: Espaços que fazem sentido.
+  hero_lede: Um olhar atento para transformar necessidades em ambientes acolhedores, funcionais e duradouros.
+  view_work: Conheça o trabalho
+  get_in_touch: Entre em contato
+  scroll: Deslize para explorar ↓
+  about_eyebrow: Sobre
+  about_title: Qualidade começa na escuta.
+  about_text: Cynthia é arquiteta com foco em arquitetura e design de interiores. Cada projeto é uma oportunidade de colaborar e buscar uma solução clara e cuidadosa.
+  values:
+    - [Qualidade, Cuidado em cada escolha e detalhe.]
+    - [Intenção, Curiosidade e aperfeiçoamento contínuos.]
+    - [Colaboração, Ideias melhores nascem do trabalho em conjunto.]
+  areas: Áreas de atuação
+  areas_list:
+    - [01 · Arquitetura, Forma com propósito., Investigar o espaço, a luz e a materialidade para criar soluções que acolhem a vida cotidiana., Detalhe arquitetônico em tons claros]
+    - [02 · Interiores, Atmosferas para viver., Compor ambientes equilibrados, funcionais e com identidade, do primeiro esboço ao detalhe final., Composição de interiores com texturas naturais]
+    - [03 · Processo, Pensar em conjunto., Pesquisa, desenho e diálogo transformam uma ideia em uma proposta clara e consistente., Estudo visual de uma proposta de projeto]
+  approach: Abordagem
+  approach_title: Do contexto ao detalhe.
+  steps:
+    - [Entender, Ouvir pessoas, observar o contexto e definir o que realmente importa.]
+    - [Investigar, Testar caminhos, materiais e possibilidades com curiosidade.]
+    - [Construir, Comunicar uma solução clara, sensível e pronta para evoluir.]
+  contact_eyebrow: Contato
+  contact_title: Vamos conversar?
+  contact_text: Tem uma ideia, projeto ou oportunidade? Envie uma mensagem.
+  honeypot: Não preencha este campo
+  name: Nome
+  email: E-mail
+  message: Mensagem
+  send: Enviar mensagem
+  social: Redes sociais
+  mail_link: E-mail
+de:
+  code: de
+  skip: Zum Inhalt springen
+  nav_label: Hauptnavigation
+  menu: Menü
+  close_menu: Menü schließen
+  home: Start
+  about: Über mich
+  projects: Projekte
+  contact: Kontakt
+  description: Architektur, Innenräume und Ideen mit Sorgfalt gestaltet.
+  hero_eyebrow: Architektur · Innenräume · Prozess
+  hero_title: Räume mit Sinn.
+  hero_lede: Ein aufmerksamer Ansatz, um Bedürfnisse in einladende, funktionale und langlebige Räume zu verwandeln.
+  view_work: Arbeiten ansehen
+  get_in_touch: Kontakt aufnehmen
+  scroll: Weiter entdecken ↓
+  about_eyebrow: Über mich
+  about_title: Gutes Design beginnt mit Zuhören.
+  about_text: Cynthia ist Architektin mit Schwerpunkt Architektur und Innenarchitektur. Jedes Projekt ist eine Gelegenheit zur Zusammenarbeit und zur Entwicklung einer klaren, durchdachten Lösung.
+  values:
+    - [Qualität, Sorgfalt bei jeder Entscheidung und jedem Detail.]
+    - [Sorgfalt, Neugier und kontinuierliches Lernen.]
+    - [Zusammenarbeit, Gemeinsam entstehen bessere Ideen.]
+  areas: Tätigkeitsbereiche
+  areas_list:
+    - [01 · Architektur, Form mit Zweck., Raum, Licht und Material erforschen, um Orte für den Alltag zu gestalten., Architektonisches Detail in hellen Tönen]
+    - [02 · Innenräume, Räume zum Leben., Ausgewogene, funktionale Räume mit Charakter gestalten – vom ersten Entwurf bis zum letzten Detail., Innenraumgestaltung mit natürlichen Texturen]
+    - [03 · Prozess, Gemeinsam durchdacht., Recherche, Zeichnung und Dialog machen aus einer Idee einen klaren, durchdachten Entwurf., Visuelle Studie eines Entwurfs]
+  approach: Arbeitsweise
+  approach_title: Vom Kontext bis ins Detail.
+  steps:
+    - [Verstehen, Menschen zuhören, den Kontext beobachten und das Wesentliche erkennen.]
+    - [Erkunden, Ideen, Materialien und Möglichkeiten neugierig erproben.]
+    - [Gestalten, Eine klare, sensible und weiterentwickelbare Lösung vermitteln.]
+  contact_eyebrow: Kontakt
+  contact_title: Sprechen wir.
+  contact_text: Sie haben eine Idee, ein Projekt oder eine Gelegenheit? Schreiben Sie eine Nachricht.
+  honeypot: Dieses Feld leer lassen
+  name: Name
+  email: E-Mail
+  message: Nachricht
+  send: Nachricht senden
+  social: Soziale Netzwerke
+  mail_link: E-Mail

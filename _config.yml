@@ -3,20 +3,16 @@
 
 # Site settings
 title: Cynthia Paiva Madruga
-description: Estudante de Arquitetura
+description: Architect focused on thoughtful architecture and interior design.
 owner: Cynthia Paiva Madruga
 first_published: 2016 # if migrating another site, the year of your first publish
 email: cynthiapaivam@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cynthiapaivam.github.io" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/cynthiapaivam
-  #linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/cynthiapaivam
-  #google-plus-square: https://plus.google.com/u/0/+<username>
   email: cynthiapaivam@gmail.com
   #flickr:
-  instagram: https://www.instagram.com/inspirearquidecor
+  instagram: https://www.instagram.com/cynthiapaiva.arq/
   #youtube-square:
   #spotify:
   #stack-overflow:
@@ -54,3 +50,8 @@ markdown: kramdown
 sass:
   style: compressed
 permalink: pretty
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
