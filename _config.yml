@@ -8,7 +8,7 @@ owner: Cynthia Paiva Madruga
 first_published: 2016 # if migrating another site, the year of your first publish
 email: cynthiapaivam@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://cynthiapaivam.arq.br" # the base hostname & protocol for your site
+url: "https://cynthiapaivam.github.io" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/cynthiapaivam
   #linkedin-square: https://linkedin.com/in/<username>
@@ -51,5 +51,6 @@ social:
 
 # Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
+sass:
+  style: compressed
+permalink: pretty
