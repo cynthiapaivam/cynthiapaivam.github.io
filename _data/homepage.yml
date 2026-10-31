@@ -41,6 +41,8 @@ en:
   email: Email
   message: Message
   send: Send message
+  email_cta: Email Cynthia
+  privacy_notice: By sending this form, you agree that Cynthia may use your name, email address and message to respond to your enquiry. The form is delivered through FormSubmit. Please do not include sensitive personal information.
   social: Social links
   mail_link: Email
 pt:
@@ -86,6 +88,8 @@ pt:
   email: E-mail
   message: Mensagem
   send: Enviar mensagem
+  email_cta: Enviar e-mail para Cynthia
+  privacy_notice: Ao enviar este formulário, você concorda que Cynthia use seu nome, e-mail e mensagem para responder à sua solicitação. O formulário é processado pelo FormSubmit. Não inclua informações pessoais sensíveis.
   social: Redes sociais
   mail_link: E-mail
 de:
@@ -131,5 +135,7 @@ de:
   email: E-Mail
   message: Nachricht
   send: Nachricht senden
+  email_cta: Cynthia eine E-Mail senden
+  privacy_notice: Mit dem Absenden dieses Formulars stimmen Sie zu, dass Cynthia Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht zur Beantwortung Ihrer Anfrage verwendet. Das Formular wird über FormSubmit übermittelt. Bitte geben Sie keine sensiblen personenbezogenen Daten an.
   social: Soziale Netzwerke
   mail_link: E-Mail

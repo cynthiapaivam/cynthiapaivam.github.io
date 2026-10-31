@@ -41,12 +41,14 @@
 <section id="contact" class="section contact" aria-labelledby="contact-title">
   <div class="inner contact-grid">
     <div><p class="eyebrow">{{ copy.contact_eyebrow }}</p><h2 id="contact-title">{{ copy.contact_title }}</h2><p class="lede">{{ copy.contact_text }}</p></div>
-    <form method="post" action="https://formspree.io/cynthiapaivam@gmail.com">
-      <label class="honeypot">{{ copy.honeypot }}<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label>
+    <form method="POST" action="https://formsubmit.co/{{ site.email }}">
+      <label class="honeypot">{{ copy.honeypot }}<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label>
+      <input type="hidden" name="_subject" value="Website contact · {{ site.title }}">
       <label for="name">{{ copy.name }}<input type="text" name="name" id="name" autocomplete="name" required></label>
       <label for="email">{{ copy.email }}<input type="email" name="email" id="email" autocomplete="email" required></label>
       <label for="message">{{ copy.message }}<textarea name="message" id="message" required></textarea></label>
       <button class="button" type="submit">{{ copy.send }}</button>
+      <p class="privacy-notice">{{ copy.privacy_notice }}</p>
     </form>
   </div>
 </section>
